@@ -9,3 +9,4 @@ xhr.onreadystatechange = function() {
 };
 
 xhr.send(null);
+console.log('m2')
